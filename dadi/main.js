@@ -1,9 +1,9 @@
-//creo una variabile per il giocatore
+//creo una variabile per il dado  del giocatore
 let player = Math.floor(Math.random() * 6) + 1;
 console.log(player);
 
 
-//creo una variabile per il computer
+//creo una variabile per il dado del computer
 let computer = Math.floor(Math.random() * 6) + 1;
 console.log(computer);
 
