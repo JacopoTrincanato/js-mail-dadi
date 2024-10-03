@@ -15,10 +15,11 @@ let emails = ['Jacopo@gmail.com', 'Emanuele@gmail.com', 'Luca@gmail.com', 'Claud
 console.log(emails);
 
 //creo il programma per verificare se posso accedere oppure no
-if (insert_email == emails.indexOf()) {
+if (emails.includes(insert_email)) {
     console.log('Puoi accedere');
     
 }else {
     console.log('accesso negato');
     
 }
+
